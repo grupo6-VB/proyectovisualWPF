@@ -1,0 +1,17 @@
+﻿<Window x:Class="WinPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataGridBaseDatos"
+        mc:Ignorable="d"
+        Title="WinPrincipal" Height="303.922" Width="511.765">
+    <Grid>
+        <Grid HorizontalAlignment="Center" Height="173" Margin="174,52,174,48" VerticalAlignment="Center" Width="156">
+            <Button x:Name="btn_Administrador" Content="Administrador" HorizontalAlignment="Left" Margin="13,14,0,0" VerticalAlignment="Top" Width="131" Height="26"/>
+            <Button x:Name="btn_Consultar" Content="Consultar" HorizontalAlignment="Left" Margin="13,73,0,0" VerticalAlignment="Top" Width="131" Height="26"/>
+            <Button x:Name="btn_Salir" Content="Salir" HorizontalAlignment="Left" Margin="13,129,0,0" VerticalAlignment="Top" Width="131" Height="26"/>
+        </Grid>
+
+    </Grid>
+</Window>

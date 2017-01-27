@@ -1,0 +1,19 @@
+﻿<Window x:Class="loginAdmin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataGridBaseDatos"
+        mc:Ignorable="d"
+        Title="loginAdmin" Height="300" Width="437.647">
+    <Grid>
+        <Grid HorizontalAlignment="Center" Height="129" Margin="88,70" VerticalAlignment="Center" Width="255">
+            <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="110,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="111,52,0,0" VerticalAlignment="Top" Width="120" Height="23"/>
+            <Label x:Name="lbl_user" Content="Usuario" HorizontalAlignment="Left" Margin="26,17,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lbl_pass" Content="Contraseña" HorizontalAlignment="Left" Margin="26,52,0,0" VerticalAlignment="Top"/>
+            <Button x:Name="button" Content="Ingresar" HorizontalAlignment="Center" Margin="95,99,85,10" VerticalAlignment="Center" Width="75"/>
+        </Grid>
+
+    </Grid>
+</Window>

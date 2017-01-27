@@ -1,0 +1,116 @@
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe.config
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.baml
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.g.vb
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\Application.g.vb
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.cache
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.vbproj.GenerateResource.Cache
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
+c:\users\estudiante\documents\visual studio 2013\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.pdb
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe.config
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.pdb
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.baml
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.g.vb
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\Application.g.vb
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.cache
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.vbproj.GenerateResource.Cache
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.baml
+C:\Users\david_000\Mega\Clases\PV2015-1\Tareas\Final\FT07_-_ADONET_submissions\moreira_ariaskenneth_julio_35158_1327485_DataGridBaseDatos\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.g.vb
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe.config
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.pdb
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.baml
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.baml
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.g.vb
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.g.vb
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\Application.g.vb
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.cache
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
+C:\Users\david_000\Mega\Clases\PV2015-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.vbproj.GenerateResource.Cache
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe.config
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.pdb
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.baml
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.baml
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.g.vb
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.g.vb
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\Application.g.vb
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.cache
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
+C:\Users\david_000\Mega\Clases\PV2016-1\Practicas\clase27\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.vbproj.GenerateResource.Cache
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe.config
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.pdb
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.vbprojResolveAssemblyReference.cache
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.baml
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.baml
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.g.vb
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.g.vb
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\Application.g.vb
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.cache
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
+C:\Users\david_000\Mega\Clases\PV2016-2\practicas\clase23\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.vbproj.GenerateResource.Cache
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe.config
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.pdb
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.vbprojResolveAssemblyReference.cache
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.baml
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.baml
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\MainWindow.g.vb
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.g.vb
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\Application.g.vb
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.cache
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
+C:\Users\ESTUDIANTE\Documents\Visual Studio 2015\Projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.vbproj.GenerateResource.Cache
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe.config
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinLogin.baml
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.baml
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinLogin.g.vb
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\tablaConsulta.g.vb
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\WinPersona.g.vb
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\Application.g.vb
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.cache
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.lref
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\tablaConsulta.baml
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.vbproj.GenerateResource.Cache
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.pdb
+C:\Users\ronny\Documents\Visual Studio 2015\projects\DataGridBaseDatos\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.vbprojResolveAssemblyReference.cache

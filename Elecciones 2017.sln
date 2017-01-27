@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Elecciones2017", "DataGridBaseDatos\Elecciones2017.vbproj", "{6B1D97A4-0609-4E3C-A2CB-B4A99ED5A81B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B1D97A4-0609-4E3C-A2CB-B4A99ED5A81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1D97A4-0609-4E3C-A2CB-B4A99ED5A81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1D97A4-0609-4E3C-A2CB-B4A99ED5A81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1D97A4-0609-4E3C-A2CB-B4A99ED5A81B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
