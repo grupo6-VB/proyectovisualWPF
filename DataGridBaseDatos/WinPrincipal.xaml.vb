@@ -16,4 +16,10 @@
         admlog.Show()
 
     End Sub
+
+    Private Sub btn_Salir_Click(sender As Object, e As RoutedEventArgs) Handles btn_Salir.Click
+        Me.Close()
+    End Sub
+
+
 End Class

@@ -2,11 +2,11 @@
 Imports System.Data.OleDb
 Imports System.Data
 Public Class tablaConsulta
-    Public dbPath As String = "C:\Users\ESTUDIANTE\Source\Repos\proyectovisualWPF\sample.mdb"
+    Public dbPath As String = "C:\Users\ronny\Source\Repos\proyectovisualWPF\sample.mdb"
     Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
     Public dsPersonas As DataSet
     Dim ced As String
-
+    Dim passw As String
 
 
     Private Sub Window_Loaded(sender As Object, e As RoutedEventArgs)
@@ -15,7 +15,12 @@ Public Class tablaConsulta
 
         Using conexion As New OleDbConnection(strConexion)
             ced = Module1.cedula
+            passw = Module1.pass
+
+            '  MsgBox(passw)
+
             Dim consulta As String = "Select * FROM tbl_master WHERE Cedula =" & ced & ";"
+            '  Dim consulta As String = "Select * FROM tbl_master WHERE Cedula =" & ced & " AND pass =" & passw & ";"
             'Dim consulta As String = "Select * FROM tbl_master;"
 
             Dim adapter As New OleDbDataAdapter(New OleDbCommand(consulta, conexion))

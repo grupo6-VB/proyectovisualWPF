@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:DataGridBaseDatos"
         mc:Ignorable="d"
         Title="WinPrincipal" Height="303.922" Width="511.765">
+    <Window.Background>
+        <ImageBrush ImageSource="images/cne-principal-01.png"/>
+    </Window.Background>
     <Grid>
         <Grid HorizontalAlignment="Center" Height="173" Margin="174,52,174,48" VerticalAlignment="Center" Width="156">
             <Button x:Name="btn_Administrador" Content="Administrador" HorizontalAlignment="Left" Margin="13,14,0,0" VerticalAlignment="Top" Width="131" Height="26"/>

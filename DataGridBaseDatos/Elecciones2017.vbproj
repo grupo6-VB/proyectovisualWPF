@@ -168,5 +168,8 @@
   <ItemGroup>
     <Resource Include="images\cne-login.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cne-principal-01.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
