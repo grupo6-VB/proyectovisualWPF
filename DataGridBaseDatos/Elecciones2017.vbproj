@@ -85,6 +85,9 @@
     <Compile Include="WinPrincipal.xaml.vb">
       <DependentUpon>WinPrincipal.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Win_Verificacion.xaml.vb">
+      <DependentUpon>Win_Verificacion.xaml</DependentUpon>
+    </Compile>
     <Page Include="loginAdmin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -110,6 +113,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WinPrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Win_Verificacion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

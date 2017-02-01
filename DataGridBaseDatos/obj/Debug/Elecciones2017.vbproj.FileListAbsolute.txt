@@ -72,3 +72,27 @@ C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinPri
 C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
 C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
 C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\Elecciones2017.vbproj.GenerateResource.Cache
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe.config
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.pdb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\Elecciones2017.vbprojResolveAssemblyReference.cache
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\userLogin.baml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinPersona.baml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\loginAdmin.g.vb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\userLogin.g.vb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\tablaConsulta.g.vb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinPersona.g.vb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinPrincipal.g.vb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\Application.g.vb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.cache
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.lref
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\loginAdmin.baml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\tablaConsulta.baml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinPrincipal.baml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\Elecciones2017.vbproj.GenerateResource.Cache
