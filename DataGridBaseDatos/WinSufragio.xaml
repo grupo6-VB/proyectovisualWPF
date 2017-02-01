@@ -1,0 +1,9 @@
+﻿<Window x:Class="WinSufragio"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="WinSufragio" Height="300" Width="477.612">
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="78" VerticalAlignment="Top" Width="470"/>
+
+    </Grid>
+</Window>

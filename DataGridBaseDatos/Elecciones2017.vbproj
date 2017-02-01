@@ -82,8 +82,11 @@
     <Compile Include="WinPersona.xaml.vb">
       <DependentUpon>WinPersona.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WinPrincipal.xaml.vb">
-      <DependentUpon>WinPrincipal.xaml</DependentUpon>
+    <Compile Include="WinElecciones.xaml.vb">
+      <DependentUpon>WinElecciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinSufragio.xaml.vb">
+      <DependentUpon>WinSufragio.xaml</DependentUpon>
     </Compile>
     <Compile Include="Win_Verificacion.xaml.vb">
       <DependentUpon>Win_Verificacion.xaml</DependentUpon>
@@ -112,7 +115,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WinPrincipal.xaml">
+    <Page Include="WinElecciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinSufragio.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

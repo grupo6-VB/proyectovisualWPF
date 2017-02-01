@@ -1,4 +1,4 @@
-﻿Public Class WinPrincipal
+﻿Public Class WinElecciones
     Private Sub btn_Consultar_Click(sender As Object, e As RoutedEventArgs) Handles btn_Consultar.Click
 
 

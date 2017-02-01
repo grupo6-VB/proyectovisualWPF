@@ -86,13 +86,15 @@ D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\loginAdmin.
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\userLogin.g.vb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\tablaConsulta.g.vb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinPersona.g.vb
-D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinPrincipal.g.vb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\Application.g.vb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.cache
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.lref
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\loginAdmin.baml
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\tablaConsulta.baml
-D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinPrincipal.baml
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\Elecciones2017.vbproj.GenerateResource.Cache
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\Win_Verificacion.baml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinElecciones.g.vb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\Win_Verificacion.g.vb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinElecciones.baml

@@ -2,7 +2,7 @@
 Imports System.Data.OleDb
 Imports System.Data
 Public Class tablaConsulta
-    Public dbPath As String = "C:\Users\ronny\Source\Repos\proyectovisualWPF\sample.mdb"
+    Public dbPath As String = "sample.mdb"
     Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
     Public dsPersonas As DataSet
     Dim ced As String

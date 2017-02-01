@@ -6,15 +6,7 @@ DataGridBaseDatos
 </name>
 </assembly>
 <members>
-<member name="M:DataGridBaseDatos.WinPrincipal.InitializeComponent">
-	<summary>
-InitializeComponent
-</summary>
-</member><member name="T:DataGridBaseDatos.WinPrincipal">
-	<summary>
-WinPrincipal
-</summary>
-</member><member name="M:DataGridBaseDatos.WinPersona.InitializeComponent">
+<member name="M:DataGridBaseDatos.WinPersona.InitializeComponent">
 	<summary>
 InitializeComponent
 </summary>
@@ -42,6 +34,14 @@ Application Entry Point.
 	<summary>
 Application
 </summary>
+</member><member name="M:DataGridBaseDatos.Win_Verificacion.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:DataGridBaseDatos.Win_Verificacion">
+	<summary>
+Win_Verificacion
+</summary>
 </member><member name="M:DataGridBaseDatos.userLogin.InitializeComponent">
 	<summary>
 InitializeComponent
@@ -57,6 +57,14 @@ InitializeComponent
 </member><member name="T:DataGridBaseDatos.tablaConsulta">
 	<summary>
 tablaConsulta
+</summary>
+</member><member name="M:DataGridBaseDatos.WinElecciones.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:DataGridBaseDatos.WinElecciones">
+	<summary>
+WinElecciones
 </summary>
 </member><member name="P:DataGridBaseDatos.My.Resources.Resources.ResourceManager">
 	<summary>

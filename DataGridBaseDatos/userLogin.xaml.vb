@@ -3,7 +3,7 @@ Imports System.Data
 
 Class userLogin
 
-    Public dbPath As String = "C:\Users\ronny\Documents\Visual Studio 2015\projects\sample.mdb"
+    Public dbPath As String = "sample.mdb"
     Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
     Public dsPersonas As DataSet
 
