@@ -48,30 +48,6 @@ C:\Users\ESTUDIANTE\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\u
 C:\Users\ESTUDIANTE\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\userLogin.g.vb
 C:\Users\ESTUDIANTE\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinPrincipal.g.vb
 C:\Users\ESTUDIANTE\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinPrincipal.baml
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe.config
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.pdb
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\Elecciones2017.vbprojResolveAssemblyReference.cache
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\userLogin.baml
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinPersona.baml
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\loginAdmin.g.vb
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\userLogin.g.vb
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\tablaConsulta.g.vb
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinPersona.g.vb
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinPrincipal.g.vb
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\Application.g.vb
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.cache
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.lref
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\loginAdmin.baml
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\tablaConsulta.baml
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinPrincipal.baml
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
-C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\Elecciones2017.vbproj.GenerateResource.Cache
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe.config
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
@@ -98,3 +74,34 @@ D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\Win_Verific
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinElecciones.g.vb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\Win_Verificacion.g.vb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinElecciones.baml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe.config
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\userLogin.baml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinPersona.baml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinSufragio.baml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\Win_Verificacion.baml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\agregarcand.g.vb
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\loginAdmin.g.vb
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\userLogin.g.vb
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\tablaConsulta.g.vb
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinAdministrar.g.vb
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinPersona.g.vb
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinElecciones.g.vb
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinSufragio.g.vb
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\Win_Verificacion.g.vb
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\Application.g.vb
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.cache
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos_MarkupCompile.lref
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\agregarcand.baml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\loginAdmin.baml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\tablaConsulta.baml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinAdministrar.baml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\WinElecciones.baml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.g.resources
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.Resources.resources
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\Elecciones2017.vbproj.GenerateResource.Cache
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.pdb

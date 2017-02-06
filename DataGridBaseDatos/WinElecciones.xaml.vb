@@ -21,5 +21,9 @@
         Me.Close()
     End Sub
 
-
+    Private Sub btn_Sufragar_Click(sender As Object, e As RoutedEventArgs) Handles btn_Sufragar.Click
+        Dim winSuf As New WinSufragio()
+        winSuf.Owner = Me
+        winSuf.Show()
+    End Sub
 End Class

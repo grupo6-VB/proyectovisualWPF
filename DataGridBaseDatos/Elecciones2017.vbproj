@@ -67,6 +67,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Administrador.vb" />
+    <Compile Include="agregarcand.xaml.vb">
+      <DependentUpon>agregarcand.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Candidato.vb" />
     <Compile Include="Dignidad.vb" />
     <Compile Include="loginAdmin.xaml.vb">
@@ -78,6 +81,9 @@
     <Compile Include="Persona.vb" />
     <Compile Include="tablaConsulta.xaml.vb">
       <DependentUpon>tablaConsulta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinAdministrar.xaml.vb">
+      <DependentUpon>WinAdministrar.xaml</DependentUpon>
     </Compile>
     <Compile Include="WinPersona.xaml.vb">
       <DependentUpon>WinPersona.xaml</DependentUpon>
@@ -91,6 +97,10 @@
     <Compile Include="Win_Verificacion.xaml.vb">
       <DependentUpon>Win_Verificacion.xaml</DependentUpon>
     </Compile>
+    <Page Include="agregarcand.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="loginAdmin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -108,6 +118,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="tablaConsulta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinAdministrar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

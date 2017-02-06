@@ -4,17 +4,17 @@
 winexe
 VB
 .vb
-D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\
 DataGridBaseDatos
 none
 false
 
-D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\Application.xaml
-7922276517
+C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\Application.xaml
+91366536523
 
-20-1088688153
+221053886264
 10-2017953140
-loginAdmin.xaml;userLogin.xaml;tablaConsulta.xaml;WinPersona.xaml;WinElecciones.xaml;WinSufragio.xaml;Win_Verificacion.xaml;
+agregarcand.xaml;loginAdmin.xaml;userLogin.xaml;tablaConsulta.xaml;WinAdministrar.xaml;WinPersona.xaml;WinElecciones.xaml;WinSufragio.xaml;Win_Verificacion.xaml;
 
 False
 
