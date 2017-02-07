@@ -1,0 +1,27 @@
+﻿<Window x:Class="WinAdministrar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataGridBaseDatos"
+        mc:Ignorable="d"
+        Title="WinAdministrar" Height="423.786" Width="640.777" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid x:Name="tablacandidatos" HorizontalAlignment="Center" Margin="67,62,97,132" VerticalAlignment="Center" Height="200" Width="469" AutoGenerateColumns="False" ItemsSource="{Binding tbl_master}" EnableRowVirtualization="False" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding cedula}"  Header="Cedula" />
+                <DataGridTextColumn Binding="{Binding nombre}"  Header="Nombre" DisplayIndex="1" />
+                <DataGridTextColumn Binding="{Binding apellido}"  Header="Apellido" />
+                <DataGridTextColumn Binding="{Binding partido}"  Header="Partido" />
+                <DataGridTextColumn Binding="{Binding puesto}"  Header="Dignidad" />
+                <DataGridTextColumn Binding="{Binding votos}"  Header="Votos" />
+
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <Label x:Name="lbl_cand" Content="Candidatos" HorizontalAlignment="Left" Margin="67,31,0,0" VerticalAlignment="Top" Width="77"/>
+        <Button x:Name="btn_Agregar" Content="Agregar " HorizontalAlignment="Left" Margin="461,285,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

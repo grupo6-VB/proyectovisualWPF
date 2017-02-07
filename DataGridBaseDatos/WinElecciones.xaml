@@ -12,8 +12,9 @@
     <Grid>
         <Grid HorizontalAlignment="Center" Height="173" Margin="174,52,174,48" VerticalAlignment="Center" Width="156">
             <Button x:Name="btn_Administrador" Content="Administrador" HorizontalAlignment="Left" Margin="13,14,0,0" VerticalAlignment="Top" Width="131" Height="26"/>
-            <Button x:Name="btn_Consultar" Content="Consultar" HorizontalAlignment="Left" Margin="13,73,0,0" VerticalAlignment="Top" Width="131" Height="26"/>
-            <Button x:Name="btn_Salir" Content="Salir" HorizontalAlignment="Left" Margin="13,129,0,0" VerticalAlignment="Top" Width="131" Height="26"/>
+            <Button x:Name="btn_Consultar" Content="Consultar" HorizontalAlignment="Left" Margin="13,50,0,0" VerticalAlignment="Top" Width="131" Height="26"/>
+            <Button x:Name="btn_Salir" Content="Salir" HorizontalAlignment="Left" Margin="13,126,0,0" VerticalAlignment="Top" Width="131" Height="26"/>
+            <Button x:Name="btn_Sufragar" Content="Sufragar" HorizontalAlignment="Left" Margin="13,86,0,0" VerticalAlignment="Top" Width="131" Height="26"/>
         </Grid>
 
     </Grid>
