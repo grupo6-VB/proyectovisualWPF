@@ -55,7 +55,6 @@ D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBas
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
-D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\Elecciones2017.vbprojResolveAssemblyReference.cache
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\userLogin.baml
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinPersona.baml
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\loginAdmin.g.vb
@@ -105,3 +104,9 @@ C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\Elecci
 C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.exe
 C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.xml
 C:\Users\ronny\Source\Repos\proyectovisualWPF\DataGridBaseDatos\obj\Debug\DataGridBaseDatos.pdb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinSufragio.baml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\agregarcand.g.vb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinAdministrar.g.vb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinSufragio.g.vb
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\agregarcand.baml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinAdministrar.baml
