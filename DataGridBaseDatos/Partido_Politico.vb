@@ -1,10 +1,10 @@
 ﻿Public Class Partido_Politico
-    Private _id As String
-    Public Property Id() As String
+    Private _id As Integer
+    Public Property Id() As Integer
         Get
             Return _id
         End Get
-        Set(ByVal value As String)
+        Set(ByVal value As Integer)
             _id = value
         End Set
     End Property
@@ -16,6 +16,16 @@
         End Get
         Set(ByVal value As String)
             _nombre = value
+        End Set
+    End Property
+
+    Private _siglas As String
+    Public Property Siglas() As String
+        Get
+            Return _siglas
+        End Get
+        Set(ByVal value As String)
+            _siglas = value
         End Set
     End Property
 
@@ -39,10 +49,11 @@
         End Set
     End Property
 
-    Public Sub New(id As String, nombre As String)
+    Public Sub New(id As String, nombre As String, siglas As String)
         Me.Id = id
         Me.Nombre = nombre
         Me.Candidatos = New ArrayList()
+        Me.Siglas = siglas
     End Sub
 
     Public Sub AgregarCandidato(candidato As Candidato)

@@ -1,13 +1,28 @@
-﻿<Window x:Class="WinSufragio"
+﻿<Window
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:My="clr-namespace:DataGridBaseDatos.My" x:Class="WinSufragio"
     Title="WinSufragio" Height="300" Width="477.612" Loaded="Window_Loaded">
     <Grid>
-        <Menu x:Name="menu_dignidades" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="470">
 
-        </Menu>
-        <Grid x:Name="grd_candidatos" HorizontalAlignment="Left" Height="207" Margin="0,25,0,0" VerticalAlignment="Top" Width="470">
-            <WrapPanel x:Name="wrp_candidatos" HorizontalAlignment="Left" Height="207" VerticalAlignment="Top" Width="470"/>
+        <Menu x:Name="menu_dignidades" Height="25" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+        <Grid x:Name="grd_candidatos" Margin="0,25,0,0" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="12.5*"/>
+                <ColumnDefinition Width="12.5*"/>
+                <ColumnDefinition Width="12.5*"/>
+                <ColumnDefinition Width="12.5*"/>
+                <ColumnDefinition Width="12.5*"/>
+                <ColumnDefinition Width="12.5*"/>
+                <ColumnDefinition Width="12.5*"/>
+                <ColumnDefinition Width="12.5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+            </Grid.RowDefinitions>
+
+
         </Grid>
 
     </Grid>

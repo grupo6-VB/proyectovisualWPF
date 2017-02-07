@@ -199,5 +199,10 @@
   <ItemGroup>
     <Resource Include="images\cne-principal-01.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cynthia_viteri.jpg" />
+    <Resource Include="images\guillermo_lasso.jpg" />
+    <Resource Include="images\lenin_moreno.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
