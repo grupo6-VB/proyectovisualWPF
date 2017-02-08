@@ -21,8 +21,22 @@
                 <RowDefinition Height="50*"/>
                 <RowDefinition Height="50*"/>
             </Grid.RowDefinitions>
-
-
+            <StackPanel x:Name="CD"/>
+            <StackPanel x:Name="PSP3" Grid.Column="1"/>
+            <StackPanel x:Name="MFCS" Grid.Column="2"/>
+            <StackPanel x:Name="PSC" Grid.Column="3"/>
+            <StackPanel x:Name="PAEA" Grid.Column="4"/>
+            <StackPanel x:Name="PPA" Grid.Column="5"/>
+            <StackPanel x:Name="FE" Grid.Column="6"/>
+            <StackPanel x:Name="ID" Grid.Column="7"/>
+            <StackPanel x:Name="PSE" Grid.Row="1"/>
+            <StackPanel x:Name="MUPP" Grid.Row="1" Grid.Column="1"/>
+            <StackPanel x:Name="UE" Grid.Row="1" Grid.Column="2"/>
+            <StackPanel x:Name="CREO" Grid.Row="1" Grid.Column="3"/>
+            <StackPanel x:Name="SUMA" Grid.Row="1" Grid.Column="4"/>
+            <StackPanel x:Name="PAIS" Grid.Row="1" Grid.Column="5"/>
+            <StackPanel x:Name="MC" Grid.Row="1" Grid.Column="6"/>
+            <StackPanel x:Name="XXX" Grid.Row="1" Grid.Column="7"/>
         </Grid>
 
     </Grid>

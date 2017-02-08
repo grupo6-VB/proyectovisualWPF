@@ -1,12 +1,13 @@
 ﻿Public Class Candidato
     Inherits Persona
-
-    Private _seleccion As Boolean
-    Public Property Seleccion() As Boolean
+    Public dbPath As String = "sample.mdb"
+    Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
+    Private _seleccion As CheckBox
+    Public Property Seleccion() As CheckBox
         Get
             Return _seleccion
         End Get
-        Set(ByVal value As Boolean)
+        Set(ByVal value As CheckBox)
             _seleccion = value
         End Set
     End Property
@@ -21,23 +22,33 @@
         End Set
     End Property
 
-    Private _cargo As String 'dignidad a la que aspira ejem: PRESIDENTE, ASAMBLEISTA, ETC
-    Public Property Cargo() As String
+    Private _dignidad As Integer 'dignidad a la que aspira ejem: PRESIDENTE, ASAMBLEISTA, ETC
+    Public Property Dignidad() As Integer
         Get
-            Return _cargo
+            Return _dignidad
         End Get
-        Set(ByVal value As String)
-            _cargo = value
+        Set(ByVal value As Integer)
+            _dignidad = value
         End Set
     End Property
 
-    Private _partido As String 'nombre del partido politico en el que milita
-    Public Property Partido() As String
+    Private _partido As Integer 'nombre del partido politico en el que milita
+    Public Property Partido() As Integer
         Get
             Return _partido
         End Get
-        Set(ByVal value As String)
+        Set(ByVal value As Integer)
             _partido = value
+        End Set
+    End Property
+
+    Private _user As String 'clave para acceder a las consultas en linea
+    Public Property User() As String
+        Get
+            Return _user
+        End Get
+        Set(ByVal value As String)
+            _user = value
         End Set
     End Property
 
@@ -61,9 +72,13 @@
         End Set
     End Property
 
-    Public Sub New(id As String, cargo As String)
+    Public Sub New(id As Integer, dignidad As Integer)
         Me.Id = id
-        Me.Cargo = cargo
+        Me.Dignidad = dignidad
+    End Sub
+
+    Public Sub New()
+
     End Sub
 
     Public Sub MostrarDatosC()
@@ -79,13 +94,13 @@
         Else
             Console.Write(vbTab)
         End If
-        Console.Write(Me.Cargo)
+        Console.Write(Me.Dignidad)
 
         'Console.Write(Me.Nombre & vbTab & Me.Apellido & vbTab & Me.Cargo)
     End Sub
 
     Public Sub MostrarDatos_D()
-        If Seleccion Then
+        If Seleccion.IsChecked Then
             Console.ForegroundColor = ConsoleColor.Yellow
         Else
             Console.ForegroundColor = ConsoleColor.White
