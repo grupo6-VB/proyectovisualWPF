@@ -31,7 +31,7 @@ Public Class WinSufragio
     Public Sub Carga_Candidatos()
 
         For Each partido As Partido_Politico In partidos
-            MessageBox.Show(partido.Siglas)
+            'MessageBox.Show(partido.Siglas)
             partido.Carga_Candidatos(partido.Id)
         Next
 

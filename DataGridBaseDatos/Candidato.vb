@@ -78,7 +78,7 @@
     End Sub
 
     Public Sub New()
-
+        Me.Seleccion = New CheckBox
     End Sub
 
     Public Sub MostrarDatosC()

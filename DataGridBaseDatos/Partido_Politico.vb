@@ -96,8 +96,9 @@ Public Class Partido_Politico
 
     Public Sub Carga_Candidatos(partido As Integer)
         Dim dsCandidatos As DataSet
+
          Using conexion As New OleDbConnection(strConexion)
-            Dim consulta As String = "Select * FROM candidatos where partido = " & partido & ";"
+            Dim consulta As String = "Select * FROM candidatos WHERE partido = " & partido & ";"
             Dim adapter As New OleDbDataAdapter(New OleDbCommand(consulta, conexion))
             Dim candidatoCmdBuilder = New OleDbCommandBuilder(adapter)
             dsCandidatos = New DataSet("candidatos")
@@ -107,7 +108,7 @@ Public Class Partido_Politico
         End Using
 
         For Each row As DataRow In dsCandidatos.Tables("candidatos").Rows
-            MessageBox.Show(row.Item(5))
+            'MessageBox.Show(row.Item(5))
             Dim candidato As New Candidato()
             candidato.Id = row.Item(0)
             candidato.User = row.Item(1)
@@ -118,7 +119,7 @@ Public Class Partido_Politico
             candidato.Partido = row.Item(9)
             candidato.Votos = row.Item(10)
             Candidatos.Add(candidato)
-            MessageBox.Show("añadido")
+            'MessageBox.Show("añadido")
         Next
 
     End Sub
@@ -128,7 +129,7 @@ Public Class Partido_Politico
         For Each candidato As Candidato In Candidatos
             If candidato.Dignidad = dignidad Then
                 CandidatosActuales.Add(candidato)
-                MessageBox.Show(candidato.Nombre)
+                'MessageBox.Show(candidato.Nombre)
             End If
         Next
 

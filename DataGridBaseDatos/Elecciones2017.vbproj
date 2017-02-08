@@ -204,5 +204,26 @@
     <Resource Include="images\guillermo_lasso.jpg" />
     <Resource Include="images\lenin_moreno.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\CD.jpg" />
+    <Resource Include="images\CREO.jpg" />
+    <Resource Include="images\FE.png" />
+    <Resource Include="images\ID.jpg" />
+    <Resource Include="images\MC.jpg" />
+    <Resource Include="images\MFCS.jpg" />
+    <Resource Include="images\MUPP.png" />
+    <Resource Include="images\PAEA.jpg" />
+    <Resource Include="images\PPA.png" />
+    <Resource Include="images\PSE.jpg" />
+    <Resource Include="images\PSP3.png" />
+    <Resource Include="images\SUMA.png" />
+    <Resource Include="images\UE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\PAIS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\PSC.JPG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -2,11 +2,11 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:My="clr-namespace:DataGridBaseDatos.My" x:Class="WinSufragio"
-    Title="WinSufragio" Height="300" Width="477.612" Loaded="Window_Loaded">
+    Title="WinSufragio" Height="300" Width="477.612" Loaded="Window_Loaded" WindowState="Maximized" WindowStartupLocation="CenterScreen">
     <Grid>
 
         <Menu x:Name="menu_dignidades" Height="25" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
-        <Grid x:Name="grd_candidatos" Margin="0,25,0,0" Grid.ColumnSpan="3">
+        <Grid x:Name="grd_candidatos" Margin="0,25" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="12.5*"/>
                 <ColumnDefinition Width="12.5*"/>
@@ -21,23 +21,85 @@
                 <RowDefinition Height="50*"/>
                 <RowDefinition Height="50*"/>
             </Grid.RowDefinitions>
-            <StackPanel x:Name="CD"/>
-            <StackPanel x:Name="PSP3" Grid.Column="1"/>
-            <StackPanel x:Name="MFCS" Grid.Column="2"/>
-            <StackPanel x:Name="PSC" Grid.Column="3"/>
-            <StackPanel x:Name="PAEA" Grid.Column="4"/>
-            <StackPanel x:Name="PPA" Grid.Column="5"/>
-            <StackPanel x:Name="FE" Grid.Column="6"/>
-            <StackPanel x:Name="ID" Grid.Column="7"/>
-            <StackPanel x:Name="PSE" Grid.Row="1"/>
-            <StackPanel x:Name="MUPP" Grid.Row="1" Grid.Column="1"/>
-            <StackPanel x:Name="UE" Grid.Row="1" Grid.Column="2"/>
-            <StackPanel x:Name="CREO" Grid.Row="1" Grid.Column="3"/>
-            <StackPanel x:Name="SUMA" Grid.Row="1" Grid.Column="4"/>
-            <StackPanel x:Name="PAIS" Grid.Row="1" Grid.Column="5"/>
-            <StackPanel x:Name="MC" Grid.Row="1" Grid.Column="6"/>
+            <StackPanel x:Name="CD">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/CD.jpg" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="PSP3" Grid.Column="1">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/PSP3.png" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="MFCS" Grid.Column="2">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/MFCS.jpg" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="PSC" Grid.Column="3">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/PSC.JPG" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="PAEA" Grid.Column="4">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/PAEA.jpg" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="PPA" Grid.Column="5">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/PPA.png" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="FE" Grid.Column="6">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/FE.png" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="ID" Grid.Column="7">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/ID.jpg" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="PSE" Grid.Row="1">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/PSE.jpg" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="MUPP" Grid.Row="1" Grid.Column="1">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/MUPP.png" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="UE" Grid.Row="1" Grid.Column="2">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/UE.jpg" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="CREO" Grid.Row="1" Grid.Column="3">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/CREO.jpg" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="SUMA" Grid.Row="1" Grid.Column="4">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="images/SUMA.png" Stretch="Uniform"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="PAIS" Grid.Row="1" Grid.Column="5">
+                <StackPanel.Background>
+                    <ImageBrush Stretch="Uniform" ImageSource="images/PAIS.png"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel x:Name="MC" Grid.Row="1" Grid.Column="6">
+                <StackPanel.Background>
+                    <ImageBrush Stretch="Uniform" ImageSource="images/MC.jpg"/>
+                </StackPanel.Background>
+            </StackPanel>
             <StackPanel x:Name="XXX" Grid.Row="1" Grid.Column="7"/>
         </Grid>
+        <Button x:Name="btn_procesar" Content="PROCESAR" HorizontalAlignment="Right" Margin="0" VerticalAlignment="Bottom" Width="75" Height="25"/>
+        <Label x:Name="lbl_mensaje" Content="" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Bottom" Width="200" Height="25"/>
 
     </Grid>
 </Window>

@@ -11,7 +11,5 @@
 Option Strict Off
 Option Explicit On
 
-<Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/cynthia_viteri.jpg"),  _
- Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/guillermo_lasso.jpg"),  _
- Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/lenin_moreno.jpg")> 
+<Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/psc.jpg")> 
 
