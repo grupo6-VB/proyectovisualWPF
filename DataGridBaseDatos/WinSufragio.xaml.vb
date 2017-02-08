@@ -10,10 +10,14 @@ Public Class WinSufragio
     Private partidos As ArrayList
     Private contador As Integer
     Private max As Integer
+    Private votante As Persona
 
     Private Sub Window_Loaded(sender As Object, e As RoutedEventArgs)
         contador = 0
         max = 0
+        votante = Me.DataContext
+        Me.Title = "BIENVENIDO ---> " & votante.Nombre & "  " & votante.Apellido
+        'MessageBox.Show(votante.Nombre)
         dignidades = New ArrayList
         partidos = New ArrayList
         Cargar_Dignidades()
@@ -245,6 +249,17 @@ Public Class WinSufragio
                 End If
             Next
         Next
+
+    End Sub
+
+    Private Sub Window_Closing(sender As Object, e As ComponentModel.CancelEventArgs)
+        Dim padre As New WinElecciones
+        padre.Show()
+        Try
+            Me.Close()
+        Catch ex As Exception
+
+        End Try
 
     End Sub
 End Class
