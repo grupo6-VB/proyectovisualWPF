@@ -99,7 +99,7 @@
             <StackPanel x:Name="XXX" Grid.Row="1" Grid.Column="7"/>
         </Grid>
         <Button x:Name="btn_procesar" Content="PROCESAR" HorizontalAlignment="Right" Margin="0" VerticalAlignment="Bottom" Width="75" Height="25"/>
-        <Label x:Name="lbl_mensaje" Content="" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Bottom" Width="200" Height="25"/>
+        <Label x:Name="lbl_mensaje" Content="" Margin="0,0,75,0" VerticalAlignment="Bottom" Height="25" FontFamily="Rockwell Extra Bold" FontSize="14" Foreground="#FFEC1010" Background="#FF0F0F0F"/>
 
     </Grid>
 </Window>

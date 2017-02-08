@@ -6,30 +6,48 @@ Public Class WinSufragio
     Public dsDignidades As DataSet
     Public dsCandidatos As DataSet
     Public dsPartidos As DataSet
-    Public partidos As ArrayList
+    Private dignidades As ArrayList
+    Private partidos As ArrayList
+    Private contador As Integer
+    Private max As Integer
 
     Private Sub Window_Loaded(sender As Object, e As RoutedEventArgs)
+        contador = 0
+        max = 0
+        dignidades = New ArrayList
         partidos = New ArrayList
-        'cargar_partidos()
         Cargar_Dignidades()
         Cargar_Partidos()
         Asignar_Paneles()
         Carga_Candidatos()
-        'ubicar_listas()
+
     End Sub
 
     Private Sub Menu_Item_Clic(ByVal sender As Object, ByVal e As EventArgs)
         Dim item_ev As New MenuItem
         item_ev = sender
-        'If item_ev.Header = "PRESIDENTE" Then
-        'End If
-        'MessageBox.Show(item_ev.Header)
         Carga_CandidatosActuales(item_ev.TabIndex)
+        For Each d As Dignidad In dignidades
+            If d.Id = item_ev.TabIndex Then
+                max = d.CantElegir
+            End If
+        Next
+        lbl_mensaje.Content = "SELECCIONAR  " & max & "  CANDIDATO(S)"
+    End Sub
 
+    Private Sub Seleccion_Candidato(ByVal sender As Object, ByVal e As EventArgs)
+        Dim seleccion As New CheckBox
+        seleccion = sender
+        If seleccion.IsChecked Then
+            MessageBox.Show("MAYOR")
+            contador = +1
+            lbl_mensaje.Content = "Seleccionados : " & contador
+        End If
     End Sub
 
     Public Sub Carga_Candidatos()
-
+        'Dim seleccion As New CheckBox
+        'AddHandler seleccion.Checked, AddressOf Seleccion_Candidato
         For Each partido As Partido_Politico In partidos
             'MessageBox.Show(partido.Siglas)
             partido.Carga_Candidatos(partido.Id)
@@ -47,21 +65,6 @@ Public Class WinSufragio
 
  
     Public Sub ubicar_listas()
-
-        'Dim f As Byte = 0
-        'Dim c As Byte = 0
-        'For Each part As Partido_Politico In partidos
-        '    If c = 7 Then
-        '        f = +1
-        '        c = 0
-        '    Else
-        '        Dim lab As New Label()
-        '        lab.Content = part.Siglas
-        '        stk_00.Children.Add(lab)
-        '        c = +1
-        '    End If
-        'Next
-
         For Each part As Partido_Politico In partidos
             Dim lab As New Label()
             lab.Content = part.Siglas
@@ -127,6 +130,8 @@ Public Class WinSufragio
         End Using
 
         For Each row As DataRow In dsDignidades.Tables("dignidades").Rows
+            Dim dignidad As Dignidad = New Dignidad(row.Item(1), row.Item(0), row.Item(2))
+            dignidades.Add(dignidad)
             Dim item As New MenuItem()
             item.Header = row.Item(1)
             item.TabIndex = row.Item(0)
@@ -152,4 +157,94 @@ Public Class WinSufragio
         Next
     End Sub
 
+
+    Private Sub btn_procesar_Click(sender As Object, e As RoutedEventArgs) Handles btn_procesar.Click
+        For Each partido As Partido_Politico In partidos
+            For Each cand As Candidato In partido.CandidatosActuales
+                If cand.Seleccion.IsChecked Then
+                    contador += 1
+                End If
+            Next
+        Next
+
+        If contador = max Then
+            Dim msg As String
+            Dim title As String
+            Dim style As MsgBoxStyle
+            Dim response As MsgBoxResult
+            msg = "¿DESEA PROCESAR SU ELECCION?"
+            style = MsgBoxStyle.DefaultButton2 Or _
+               MsgBoxStyle.OkOnly Or MsgBoxStyle.YesNo
+            title = ""  
+            response = MsgBox(msg, style, title)
+            If response = MsgBoxResult.Yes Then
+                Proceso_Guardado()
+                contador = 0
+            Else
+                contador = 0
+                Exit Sub
+            End If
+        ElseIf contador < max Then
+            Dim msg As String
+            Dim title As String
+            Dim style As MsgBoxStyle
+            Dim response As MsgBoxResult
+            msg = "¿DESEA PROCESAR SU ELECCION?"
+            style = MsgBoxStyle.DefaultButton2 Or _
+               MsgBoxStyle.Exclamation Or MsgBoxStyle.YesNo
+            title = "FALTAN CANDIDATOS POR ELEGIR"
+            response = MsgBox(msg, style, title)
+            If response = MsgBoxResult.Yes Then
+                Proceso_Guardado()
+                contador = 0
+            Else
+                contador = 0
+                Exit Sub
+            End If
+        Else
+            Dim msg As String
+            Dim title As String
+            Dim style As MsgBoxStyle
+            Dim response As MsgBoxResult
+            msg = "LIMITE DE SELECCION EXCEDIDO"
+            style = MsgBoxStyle.DefaultButton2 Or _
+               MsgBoxStyle.Critical Or MsgBoxStyle.OkOnly
+            title = "ERROR"
+            response = MsgBox(msg, style, title)
+            contador = 0
+            Exit Sub
+        End If
+
+        MessageBox.Show("CANDIDATOS SELECCIONADOS: " & contador)
+    End Sub
+
+    Public Sub Proceso_Guardado()
+        For Each p As Partido_Politico In partidos
+            For Each c As Candidato In p.CandidatosActuales
+                If c.Seleccion.IsEnabled Then
+                    If c.Seleccion.IsChecked Then
+                        c.Votos += 1
+                        MessageBox.Show(c.Id & "     " & c.Votos)
+                        dsCandidatos = New DataSet
+                        Using conexion As New OleDbConnection(strConexion)
+                            Dim sentencia As String
+                            Dim Adapter As New OleDbDataAdapter
+                            Dim actualizacion = New OleDbCommandBuilder(Adapter)
+                            sentencia = "UPDATE candidatos SET votos = " & c.Votos & " WHERE idusuario = " & c.Id & ";"
+                            Adapter = New OleDbDataAdapter(New OleDbCommand(sentencia, conexion))
+                            Adapter.Fill(dsCandidatos, "candidatos")
+                            Try
+                                Adapter.Update(dsCandidatos.Tables("candidatos"))
+                                'MessageBox.Show("MODIFICADO CON EXITO")
+                            Catch ex As Exception
+                                'MessageBox.Show("ERROR AL MODIFICAR")
+                            End Try
+                        End Using
+                    End If
+                    c.Seleccion.IsEnabled = False
+                End If
+            Next
+        Next
+
+    End Sub
 End Class

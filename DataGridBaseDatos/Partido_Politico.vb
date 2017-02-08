@@ -90,14 +90,14 @@ Public Class Partido_Politico
     Public Sub MostrarCandidatos()
         Console.WriteLine("ESTOS SON LOS CANDIDATOS DE {0}", Me.Nombre)
         For Each candidato As Candidato In Candidatos
-            candidato.MostrarDatosC()
+            'candidato.MostrarDatosC()
         Next
     End Sub
 
     Public Sub Carga_Candidatos(partido As Integer)
         Dim dsCandidatos As DataSet
 
-         Using conexion As New OleDbConnection(strConexion)
+        Using conexion As New OleDbConnection(strConexion)
             Dim consulta As String = "Select * FROM candidatos WHERE partido = " & partido & ";"
             Dim adapter As New OleDbDataAdapter(New OleDbCommand(consulta, conexion))
             Dim candidatoCmdBuilder = New OleDbCommandBuilder(adapter)
@@ -137,6 +137,12 @@ Public Class Partido_Politico
         For Each candidato As Candidato In CandidatosActuales
             candidato.Seleccion.Content = candidato.Nombre + " " + candidato.Apellido
             Panel.Children.Add(candidato.Seleccion)
+        Next
+    End Sub
+
+    Public Sub Cambiar_Check(nuevo As CheckBox)
+        For Each c As Candidato In Candidatos
+            c.Seleccion = nuevo
         Next
     End Sub
 End Class

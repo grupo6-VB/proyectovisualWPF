@@ -79,47 +79,26 @@
 
     Public Sub New()
         Me.Seleccion = New CheckBox
+        AddHandler Seleccion.Checked, AddressOf Seleccion_Candidato
     End Sub
 
-    Public Sub MostrarDatosC()
-        Console.Write(Me.Nombre)
-        If Me.Nombre.Length <= 4 Then
-            Console.Write(vbTab & vbTab)
-        Else
-            Console.Write(vbTab)
-        End If
-        Console.Write(Me.Apellido)
-        If Me.Apellido.Length <= 5 Then
-            Console.Write(vbTab & vbTab)
-        Else
-            Console.Write(vbTab)
-        End If
-        Console.Write(Me.Dignidad)
 
-        'Console.Write(Me.Nombre & vbTab & Me.Apellido & vbTab & Me.Cargo)
-    End Sub
 
-    Public Sub MostrarDatos_D()
+    'Private Function Seleccion_Candidato(ByVal sender As Object, ByVal e As EventArgs) As Boolean
+
+    '    If Seleccion.IsChecked Then
+
+    '        Return True
+    '    End If
+    '    Return False
+    'End Function
+
+    Private Sub Seleccion_Candidato(ByVal sender As Object, ByVal e As EventArgs)
+
         If Seleccion.IsChecked Then
-            Console.ForegroundColor = ConsoleColor.Yellow
-        Else
-            Console.ForegroundColor = ConsoleColor.White
-        End If
-        Console.Write(Me.Nombre)
-        If Me.Nombre.Length <= 3 Then
-            Console.Write(vbTab & vbTab)
-        Else
-            Console.Write(vbTab)
-        End If
-        Console.Write(Me.Apellido)
-        If Me.Apellido.Length <= 7 Then
-            Console.Write(vbTab & vbTab)
-        Else
-            Console.Write(vbTab)
-        End If
-        Console.WriteLine("(" & Me.Partido & ")")
-        Console.ForegroundColor = ConsoleColor.White
-        'Console.Write(Me.Nombre & vbTab & Me.Apellido & vbTab & Me.Cargo)
-    End Sub
+            'MessageBox.Show("CANDIDATO SELECCIONADO")
 
+        End If
+
+    End Sub
 End Class
