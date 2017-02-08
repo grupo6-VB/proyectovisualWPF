@@ -11,5 +11,9 @@
 Option Strict Off
 Option Explicit On
 
-<Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/psc.jpg")> 
+<Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/check.png"),  _
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/login.ico"),  _
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/result.jpg"),  _
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/votando_ico.png"),  _
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/voto.png")> 
 

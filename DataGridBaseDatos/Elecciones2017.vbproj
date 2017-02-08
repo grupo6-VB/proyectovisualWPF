@@ -225,5 +225,12 @@
   <ItemGroup>
     <Resource Include="images\PSC.JPG" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\CHECK.png" />
+    <Resource Include="images\LOGIN.ico" />
+    <Resource Include="images\RESULT.jpg" />
+    <Resource Include="images\Votando_ico.png" />
+    <Resource Include="images\VOTO.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

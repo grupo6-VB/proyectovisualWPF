@@ -253,13 +253,9 @@ Public Class WinSufragio
     End Sub
 
     Private Sub Window_Closing(sender As Object, e As ComponentModel.CancelEventArgs)
-        Dim padre As New WinElecciones
+        Dim padre As WinElecciones
+        padre = Me.Owner
         padre.Show()
-        Try
-            Me.Close()
-        Catch ex As Exception
-
-        End Try
-
+        Me.Hide()
     End Sub
 End Class

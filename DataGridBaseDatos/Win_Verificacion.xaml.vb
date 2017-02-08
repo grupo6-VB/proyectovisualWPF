@@ -57,4 +57,11 @@ Public Class Win_Verificacion
 
         Return p
     End Function
+
+    Private Sub win_verificacion_Closing(sender As Object, e As ComponentModel.CancelEventArgs) Handles MyBase.Closing, MyBase.Closing
+        Dim padre As WinElecciones
+        padre = Me.Owner
+        padre.Show()
+        Me.Hide()
+    End Sub
 End Class
