@@ -5,24 +5,52 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DataGridBaseDatos"
         mc:Ignorable="d"
-        Title="agregarcand" Height="260.679" Width="283.243">
+        Title="Datos del candidato" Height="443.679" Width="283.243" Closing="Window_Closing">
     <Grid Margin="0,0,2,0">
-        <Button x:Name="btn_ok" Content="Guardar" HorizontalAlignment="Left" Margin="97,199,0,0" VerticalAlignment="Top" Width="75"/>
-        <Label x:Name="lbl_cand" Content="Dignidad" HorizontalAlignment="Left" Margin="33,25,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lbl_nombre" Content="Nombre" HorizontalAlignment="Left" Margin="33,87,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lbl_apellido" Content="Apellido" HorizontalAlignment="Left" Margin="33,118,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lbl_cedula" Content="Cedula" HorizontalAlignment="Left" Margin="33,56,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txt_dignidad" HorizontalAlignment="Left" Height="25" Margin="394,25,-218,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
-        <TextBox x:Name="txt_cedula" HorizontalAlignment="Left" Height="25" Margin="116,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txt_nombre" HorizontalAlignment="Left" Height="25" Margin="116,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txt_apellido" HorizontalAlignment="Left" Height="25" Margin="116,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <ComboBox x:Name="box_dignidades" HorizontalAlignment="Left" Margin="116,25,0,0" VerticalAlignment="Top" Width="120">
-            <ListBoxItem Content="Presidente"/>
-            <ListBoxItem Content="Asambleista"/>
-            <ListBoxItem Content="Parlamento Andino"/>
-        </ComboBox>
-        <Label x:Name="lbl_partido" Content="Lista" HorizontalAlignment="Left" Margin="33,149,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txt_partido" HorizontalAlignment="Left" Height="25" Margin="116,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-
+        <Grid Height="397" Margin="10" Width="253">
+            <Button x:Name="btn_ok" Content="Guardar" HorizontalAlignment="Left" Margin="93,338,0,0" VerticalAlignment="Top" Width="75"/>
+            <Label x:Name="lbl_cand" Content="Dignidad" HorizontalAlignment="Left" Margin="26,250,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lbl_nombre" Content="Nombre" HorizontalAlignment="Left" Margin="26,50,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lbl_apellido" Content="Apellido" HorizontalAlignment="Left" Margin="26,82,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lbl_cedula" Content="Cedula" HorizontalAlignment="Left" Margin="26,20,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="txt_cedula" Text="{Binding Cedula}" HorizontalAlignment="Left" Height="26" Margin="109,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="txt_nombre" Text="{Binding Nombre}" HorizontalAlignment="Left" Height="24" Margin="109,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="txt_apellido" Text="{Binding Apellido}" HorizontalAlignment="Left" Height="26" Margin="109,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <ComboBox x:Name="box_dignidades" Text="{Binding Puesto}" HorizontalAlignment="Left" Margin="109,252,0,0" VerticalAlignment="Top" Width="120">
+                <ListBoxItem Content="presidente"/>
+                <ListBoxItem Content="asambleista"/>
+                <ListBoxItem Content="parlamento andino"/>
+            </ComboBox>
+            <Label x:Name="lbl_partido" Content="Lista" HorizontalAlignment="Left" Margin="26,212,0,0" VerticalAlignment="Top"/>
+            <ComboBox x:Name="box_lista" Text="{Binding Dignidad}" HorizontalAlignment="Left" Margin="109,218,0,0" VerticalAlignment="Top" Width="120">
+                <ListBoxItem Content="35"/>
+                <ListBoxItem Content="21"/>
+                <ListBoxItem Content="5"/>
+                <ListBoxItem Content="6"/>
+                <ListBoxItem Content="10"/>
+                <ListBoxItem Content="2"/>
+                <ListBoxItem Content="19"/>
+                <ListBoxItem Content="3"/>
+                <ListBoxItem Content="1"/>
+                <ListBoxItem Content="7"/>
+                <ListBoxItem Content="8"/>
+                <ListBoxItem Content="12"/>
+                <ListBoxItem Content="17"/>
+                <ListBoxItem Content="18"/>
+                <ListBoxItem Content="23"/>
+                <ListBoxItem Content="51"/>
+            </ComboBox>
+            <Label x:Name="lbl_usuario" Content="Usuario" HorizontalAlignment="Left" Margin="26,120,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="txt_usuario" Text="{Binding Cedula}" HorizontalAlignment="Left" Height="24" Margin="109,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label x:Name="lbl_clave" Content="Clave" HorizontalAlignment="Left" Margin="26,150,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="txt_clave" Text="{Binding Cedula}" HorizontalAlignment="Left" Height="26" Margin="109,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label x:Name="lbl_estado" Content="Estado" HorizontalAlignment="Left" Margin="26,184,0,0" VerticalAlignment="Top"/>
+            <ComboBox x:Name="box_estado" Text="{Binding Puesto}" HorizontalAlignment="Left" Margin="109,184,0,0" VerticalAlignment="Top" Width="120">
+                <ListBoxItem Content="FALSE"/>
+                <ListBoxItem Content="TRUE"/>
+            </ComboBox>
+            <Label x:Name="lbl_votos" Content="Votos" HorizontalAlignment="Left" Margin="26,284,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="txt_votos" Text="{Binding Cedula}" HorizontalAlignment="Left" Height="26" Margin="109,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        </Grid>
     </Grid>
 </Window>

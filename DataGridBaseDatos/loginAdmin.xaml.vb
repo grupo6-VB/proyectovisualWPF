@@ -7,21 +7,15 @@ Public Class loginAdmin
     Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
     Public dsPersonas As DataSet
     'Dim ced As String
-
+    Dim nom As String
 
     Private Sub btn_admin_Click(sender As Object, e As RoutedEventArgs) Handles btn_admin.Click
-        'Module1.cedula = txtUser.Text
-        'Module1.pass = txt_pass.Text
 
-
-
-        'Dim consult As New tablaConsulta()
-        'consult.Owner = Me
-        'consult.Show()}
         If validar_Login() = True Then
-            MsgBox("Bienvenido")
+            MsgBox("Bienvenido " & nom)
             txtUser.Clear()
             txt_pass.Clear()
+             Module1.admin = txtUser.Text
             Dim adminWin As New WinAdministrar()
             adminWin.Owner = Me
             adminWin.Show()
@@ -48,6 +42,7 @@ Public Class loginAdmin
             ad.Fill(dt)
             For Each DataRow In dt.Rows
                 If txtUser.Text = DataRow(1) And txt_pass.Text = DataRow(2) Then
+                    nom = DataRow(4) & " " & DataRow(5)
                     conexion.Close()
                     Return True
 
