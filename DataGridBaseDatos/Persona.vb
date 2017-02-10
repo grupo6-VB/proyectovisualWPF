@@ -2,8 +2,6 @@
 Imports System.Data.OleDb
 Imports System.Data
 Public Class Persona
-    'Public dbPath As String = "sample.mdb"
-    'Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
     Private _cedula As String
     Public Property Cedula() As String
         Get
@@ -75,26 +73,22 @@ Public Class Persona
         Console.WriteLine(Me.Cedula & vbTab & Me.Nombre & vbTab & Me.Apellido)
     End Sub
 
-    Public Sub GuardarEstadoSufragio(cedula As String)
-        Dim path As String = "DATOS.xml"
-        Dim xmlDoc As New XmlDocument()
-        xmlDoc.Load(path)
-        Dim lista_votantes As XmlNodeList = xmlDoc.GetElementsByTagName("votante")
-        For Each votante As XmlNode In lista_votantes
-            'Console.WriteLine(votante.Name)
-            If votante.Attributes("cedula").Value = cedula Then
-                For Each nodo As XmlNode In votante
-                    If nodo.Name = "estadoSufragio" Then
-                        Dim n As XmlNode = xmlDoc.CreateElement("estadoSufragio")
-                        n.InnerText = "TRUE"
-                        votante.RemoveChild(nodo)
-                        votante.AppendChild(n)
-                        xmlDoc.Save(path)
-                        Exit For
-                    End If
-                Next
-            End If
-        Next
+    Public Sub GuardarEstadoSufragio(tipo As String, cedula As String)
+        Dim dsPersonas As DataSet = New DataSet
+        Using conexion As New OleDbConnection(DatosPublicos.cd_conexion)
+            Dim sentencia As String
+            Dim Adapter As New OleDbDataAdapter
+            Dim actualizacion = New OleDbCommandBuilder(Adapter)
+            sentencia = "UPDATE " & tipo & " SET estadosufragio = 'TRUE' WHERE cedula = '" & cedula & "';"
+            Adapter = New OleDbDataAdapter(New OleDbCommand(sentencia, conexion))
+            Adapter.Fill(dsPersonas, "votantes")
+            Try
+                Adapter.Update(dsPersonas.Tables("votantes"))
+                'MessageBox.Show("MODIFICADO CON EXITO")
+            Catch ex As Exception
+                'MessageBox.Show("ERROR AL MODIFICAR")
+            End Try
+        End Using
     End Sub
 
 End Class

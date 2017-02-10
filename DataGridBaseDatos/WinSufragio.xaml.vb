@@ -11,12 +11,21 @@ Public Class WinSufragio
     Private contador As Integer
     Private max As Integer
     Private votante As Persona
-
+    Private candidato As Candidato
+    Private tipo As String
     Private Sub Window_Loaded(sender As Object, e As RoutedEventArgs)
         contador = 0
         max = 0
+        If DataContext.GetType.ToString().Contains("Candidato") Then
+            tipo = "candidatos"
+        Else
+            tipo = "votantes"
+        End If
+        'MessageBox.Show(DataContext.GetType.ToString())
         votante = Me.DataContext
+        'MessageBox.Show(votante.Cedula)
         Me.Title = "BIENVENIDO ---> " & votante.Nombre & "  " & votante.Apellido
+        votante.GuardarEstadoSufragio(tipo, votante.Cedula)
         'MessageBox.Show(votante.Nombre)
         dignidades = New ArrayList
         partidos = New ArrayList
