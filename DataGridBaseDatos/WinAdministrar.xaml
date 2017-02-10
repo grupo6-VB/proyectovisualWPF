@@ -5,23 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DataGridBaseDatos"
         mc:Ignorable="d"
-        Title="WinAdministrar" Height="423.786" Width="640.777" Loaded="Window_Loaded">
+        Title="Administrador" Height="423.786" Width="640.777" Loaded="Window_Loaded">
     <Grid>
-        <DataGrid x:Name="tablacandidatos" HorizontalAlignment="Center" Margin="67,62,97,132" VerticalAlignment="Center" Height="200" Width="469" AutoGenerateColumns="False" ItemsSource="{Binding tbl_master}" EnableRowVirtualization="False" >
-            <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding cedula}"  Header="Cedula" />
-                <DataGridTextColumn Binding="{Binding nombre}"  Header="Nombre" DisplayIndex="1" />
-                <DataGridTextColumn Binding="{Binding apellido}"  Header="Apellido" />
-                <DataGridTextColumn Binding="{Binding partido}"  Header="Partido" />
-                <DataGridTextColumn Binding="{Binding puesto}"  Header="Dignidad" />
-                <DataGridTextColumn Binding="{Binding votos}"  Header="Votos" />
+        <Grid Margin="10,10,10,75">
+            <DataGrid x:Name="tablacandidatos" Margin="10,38,10,74" AutoGenerateColumns="False" ItemsSource="{Binding tbl_master}" EnableRowVirtualization="False" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding cedula}"  Header="Cedula" />
+                    <DataGridTextColumn Binding="{Binding nombre}"  Header="Nombre" DisplayIndex="1" />
+                    <DataGridTextColumn Binding="{Binding apellido}"  Header="Apellido" />
+                    <DataGridTextColumn Binding="{Binding usuario}"  Header="Usuario" />
+                    <DataGridTextColumn Binding="{Binding clave}"  Header="Clave" />
+                    <DataGridTextColumn Binding="{Binding partido}"  Header="Partido" />
+                    <DataGridTextColumn Binding="{Binding puesto}"  Header="Puesto" />
+                    <DataGridTextColumn Binding="{Binding estadosufragio}"  Header="EstadoSufragio" />
+                    <DataGridTextColumn Binding="{Binding votos}"  Header="Votos" />
 
 
-            </DataGrid.Columns>
+                </DataGrid.Columns>
 
-        </DataGrid>
-        <Label x:Name="lbl_cand" Content="Candidatos" HorizontalAlignment="Left" Margin="67,31,0,0" VerticalAlignment="Top" Width="77"/>
-        <Button x:Name="btn_Agregar" Content="Agregar " HorizontalAlignment="Left" Margin="461,285,0,0" VerticalAlignment="Top" Width="75"/>
+            </DataGrid>
+            <Label x:Name="lbl_cand" Content="Candidatos" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="77"/>
+            <Button x:Name="btn_Agregar" Content="Agregar " HorizontalAlignment="Right" Margin="0,0,10,40" VerticalAlignment="Bottom" Width="75"/>
+        </Grid>
 
     </Grid>
 </Window>

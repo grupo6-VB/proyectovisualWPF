@@ -82,6 +82,9 @@
     <Compile Include="tablaConsulta.xaml.vb">
       <DependentUpon>tablaConsulta.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WinActualizar.xaml.vb">
+      <DependentUpon>WinActualizar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WinAdministrar.xaml.vb">
       <DependentUpon>WinAdministrar.xaml</DependentUpon>
     </Compile>
@@ -118,6 +121,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="tablaConsulta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinActualizar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

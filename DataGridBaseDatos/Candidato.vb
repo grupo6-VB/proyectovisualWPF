@@ -61,7 +61,24 @@
             _pass = value
         End Set
     End Property
-
+    Private _estado As String
+    Public Property Estado() As String
+        Get
+            Return _estado
+        End Get
+        Set(ByVal value As String)
+            _estado = value
+        End Set
+    End Property
+    Private _puesto As String
+    Public Property Puesto() As String
+        Get
+            Return _puesto
+        End Get
+        Set(ByVal value As String)
+            _puesto = value
+        End Set
+    End Property
     Private _votos As Integer 'La cantidad de votos que va acumulando por parte de los votantes
     Public Property Votos() As Integer
         Get
@@ -82,7 +99,25 @@
         AddHandler Seleccion.Checked, AddressOf Seleccion_Candidato
     End Sub
 
+    Sub New(cedula As String, nombre As String, apellido As String)
+        _cedula = cedula
+        _nombre = nombre
+        _apellido = apellido
 
+    End Sub
+
+    Sub New(cedula As String, nombre As String, apellido As String, partido As String, puesto As String, usuario As String, clave As String, estadosufragio As String, votos As String)
+        _cedula = cedula
+        _nombre = nombre
+        _apellido = apellido
+        _partido = CInt(partido)
+        _puesto = puesto
+        _user = usuario
+        _pass = clave
+        _estado = estadosufragio
+        _votos = CInt(votos)
+
+    End Sub
 
     'Private Function Seleccion_Candidato(ByVal sender As Object, ByVal e As EventArgs) As Boolean
 

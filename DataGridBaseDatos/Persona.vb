@@ -4,7 +4,7 @@ Imports System.Data
 Public Class Persona
     Public dbPath As String = "sample.mdb"
     Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
-    Private _cedula As String
+    Public _cedula As String
     Public Property Cedula() As String
         Get
             Return _cedula
@@ -14,7 +14,7 @@ Public Class Persona
         End Set
     End Property
 
-    Private _nombre As String
+    Public _nombre As String
     Public Property Nombre() As String
         Get
             Return _nombre
@@ -24,7 +24,7 @@ Public Class Persona
         End Set
     End Property
 
-    Private _apellido As String
+    Public _apellido As String
     Public Property Apellido() As String
         Get
             Return _apellido
@@ -34,7 +34,7 @@ Public Class Persona
         End Set
     End Property
 
-    Private _estadoSufragio As Boolean 'Para saber si la persona ya sufragó o no
+    Public _estadoSufragio As Boolean 'Para saber si la persona ya sufragó o no
     Public Property EstadoSufragio() As Boolean
         Get
             Return _estadoSufragio
@@ -65,11 +65,14 @@ Public Class Persona
         '_lugar = lugar
     End Sub
 
-    Sub New(nombre As String, apellido As String, lugar As String)
+    Sub New(cedula As String, nombre As String, apellido As String)
+        _cedula = cedula
         _nombre = nombre
         _apellido = apellido
         '   _lugar = lugar
     End Sub
+
+
 
     Public Sub MostrarDatos()
         Console.WriteLine(Me.Cedula & vbTab & Me.Nombre & vbTab & Me.Apellido)

@@ -5,20 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DataGridBaseDatos"
         mc:Ignorable="d"
-        Title="tablaConsulta" Height="436.257" Width="632.335" Loaded="Window_Loaded">
+        Title="Consulta Candidato" Height="436.257" Width="632.335" Loaded="Window_Loaded">
     <Grid>
-        <DataGrid x:Name="dataGrid2" HorizontalAlignment="Center" Margin="67,62,88,238" VerticalAlignment="Center" Height="106" Width="469" AutoGenerateColumns="False" ItemsSource="{Binding tbl_master}" EnableRowVirtualization="False" >
-            <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Cedula}"  Header="Cedula" />
-                <DataGridTextColumn Binding="{Binding Nombre}"  Header="Nombre" DisplayIndex="1" />
-                <DataGridTextColumn Binding="{Binding Apellido}"  Header="Apellido" />
-                <DataGridTextColumn Header="Lugar de votacion" Binding="{Binding Lugardevotacion}"/>
-                <DataGridTextColumn Binding="{Binding EstadoSufragio}"  Header="EstadoSufragio" />
-            </DataGrid.Columns>
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <DataGrid x:Name="tabla_consulta" Margin="10,38,10,165" AutoGenerateColumns="False" ItemsSource="{Binding tbl_master}" EnableRowVirtualization="False" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding cedula}"  Header="Cedula" />
+                    <DataGridTextColumn Binding="{Binding nombre}"  Header="Nombre" DisplayIndex="1" />
+                    <DataGridTextColumn Binding="{Binding apellido}"  Header="Apellido" />
 
-        </DataGrid>
-        <Button x:Name="btnNuevo" Content="Agregar" HorizontalAlignment="Left" Margin="725,315,-176,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button x:Name="button" Content="Sufragar" HorizontalAlignment="Left" Margin="461,265,0,0" VerticalAlignment="Top" Width="75"/>
+                    <DataGridTextColumn Binding="{Binding estadosufragio}"  Header="EstadoSufragio" />
+                    <DataGridTextColumn Binding="{Binding votos}"  Header="Votos" />
+                </DataGrid.Columns>
+
+            </DataGrid>
+            <Label x:Name="label" Content="Datos" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-5.167,0.478"/>
+        </Grid>
 
     </Grid>
 </Window>
