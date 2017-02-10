@@ -15,7 +15,7 @@ Public Class loginAdmin
             MsgBox("Bienvenido " & nom)
             txtUser.Clear()
             txt_pass.Clear()
-             Module1.admin = txtUser.Text
+            DatosPublicos.admin = txtUser.Text
             Dim adminWin As New WinAdministrar()
             adminWin.Owner = Me
             adminWin.Show()

@@ -100,16 +100,16 @@
     End Sub
 
     Sub New(cedula As String, nombre As String, apellido As String)
-        _cedula = cedula
-        _nombre = nombre
-        _apellido = apellido
+        Me.Cedula = cedula
+        Me.Nombre = nombre
+        Me.Apellido = apellido
 
     End Sub
 
     Sub New(cedula As String, nombre As String, apellido As String, partido As String, puesto As String, usuario As String, clave As String, estadosufragio As String, votos As String)
-        _cedula = cedula
-        _nombre = nombre
-        _apellido = apellido
+        Me.Cedula = cedula
+        Me.Nombre = nombre
+        Me.Apellido = apellido
         _partido = CInt(partido)
         _puesto = puesto
         _user = usuario
