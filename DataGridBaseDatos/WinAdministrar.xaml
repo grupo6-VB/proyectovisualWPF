@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Administrador" Height="423.786" Width="640.777" Loaded="Window_Loaded" Icon="images/CNE.png">
     <Grid>
-        <Grid Margin="10,10,10,75">
+        <Grid Margin="10">
             <DataGrid x:Name="tablacandidatos" Margin="10,38,10,74" AutoGenerateColumns="False" ItemsSource="{Binding tbl_master}" EnableRowVirtualization="False" >
                 <DataGrid.Columns>
                     <DataGridTextColumn Binding="{Binding cedula}"  Header="Cedula" />
@@ -25,7 +25,8 @@
 
             </DataGrid>
             <Label x:Name="lbl_cand" Content="Candidatos" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="77"/>
-            <Button x:Name="btn_Agregar" Content="Agregar " HorizontalAlignment="Right" Margin="0,0,10,40" VerticalAlignment="Bottom" Width="75"/>
+            <Button x:Name="btn_Agregar" Content="Agregar Candidato" HorizontalAlignment="Right" Margin="0,0,10,40" VerticalAlignment="Bottom" Width="150"/>
+            <Button x:Name="btn_bloqueo" Content="Bloquear Votante" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" Width="154"/>
         </Grid>
 
     </Grid>

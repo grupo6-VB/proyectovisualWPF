@@ -97,6 +97,9 @@
     <Compile Include="WinSufragio.xaml.vb">
       <DependentUpon>WinSufragio.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Win_Bloqueo.xaml.vb">
+      <DependentUpon>Win_Bloqueo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Win_Verificacion.xaml.vb">
       <DependentUpon>Win_Verificacion.xaml</DependentUpon>
     </Compile>
@@ -141,6 +144,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WinSufragio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Win_Bloqueo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

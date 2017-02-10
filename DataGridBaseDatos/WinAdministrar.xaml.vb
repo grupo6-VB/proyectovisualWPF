@@ -99,4 +99,11 @@ Public Class WinAdministrar
         padre.Show()
         Me.Hide()
     End Sub
+
+    Private Sub btn_bloqueo_Click(sender As Object, e As RoutedEventArgs) Handles btn_bloqueo.Click
+        Dim w_bloq As New Win_Bloqueo
+        w_bloq.Owner = Me
+        w_bloq.Show()
+
+    End Sub
 End Class

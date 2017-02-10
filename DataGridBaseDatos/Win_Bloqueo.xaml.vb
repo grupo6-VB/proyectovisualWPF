@@ -1,9 +1,7 @@
 ﻿Imports System.Data.OleDb
 Imports System.Data
-Public Class Win_Verificacion
+Public Class Win_Bloqueo
     Private bloqueo As Boolean
-    Public dbPath As String = "sample.mdb"
-    Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
     Private Sub txt_cedula_KeyDown(sender As Object, e As KeyEventArgs) Handles txt_cedula.KeyDown
         If (e.Key >= Key.D0 And e.Key <= Key.D9 Or e.Key >= Key.NumPad0 And e.Key <= Key.NumPad9) Then
             e.Handled = False
@@ -12,24 +10,18 @@ Public Class Win_Verificacion
                 If txt_cedula.Text.Length = 10 Then
                     Dim p As Persona = Consultar_Votante(txt_cedula.Text)
                     If p.Nombre = "" Then
+                        txt_cedula.Text = ""
                         MessageBox.Show("CEDULA INVALIDA")
                     Else
                         If Me.bloqueo Then
-                            MessageBox.Show("IMPOSIBLE SU INGRESO AL SISTEMA")
+                            txt_cedula.Text = ""
+                            MessageBox.Show("EL VOTANTE YA ESTABA BLOQUEADO")
                         Else
-                            If p.EstadoSufragio Then
-                                MessageBox.Show("YA EJERCIO SU DERECHO")
-                            Else
-                                MessageBox.Show("BIENVENIDO")
-                                Dim sufragio As New WinSufragio()
-                                sufragio.Owner = Me.Owner
-                                sufragio.DataContext = p
-                                sufragio.Show()
-                                Me.Hide()
-                            End If
+                            Bloquear(p.Cedula)
                         End If
                     End If
                 Else
+                    txt_cedula.Text = ""
                     MessageBox.Show("CEDULA CORTA")
                 End If
             End If
@@ -41,7 +33,7 @@ Public Class Win_Verificacion
         Dim p As Persona = New Persona
         Dim dsPersona As DataSet
 
-        Using conexion As New OleDbConnection(strConexion)
+        Using conexion As New OleDbConnection(DatosPublicos.cd_conexion)
             Dim consulta As String = "Select * FROM votantes WHERE cedula = '" & cedula & "';"
             Dim adapter As New OleDbDataAdapter(New OleDbCommand(consulta, conexion))
             Dim personaCmdBuilder = New OleDbCommandBuilder(adapter)
@@ -63,10 +55,31 @@ Public Class Win_Verificacion
         Return p
     End Function
 
-    Private Sub win_verificacion_Closing(sender As Object, e As ComponentModel.CancelEventArgs) Handles MyBase.Closing, MyBase.Closing
-        Dim padre As WinElecciones
-        padre = Me.Owner
-        padre.Show()
+    Public Sub Bloquear(cedula As String)
+        Dim dsPersonas As DataSet = New DataSet
+        Using conexion As New OleDbConnection(DatosPublicos.cd_conexion)
+            Dim sentencia As String
+            Dim Adapter As New OleDbDataAdapter
+            Dim actualizacion = New OleDbCommandBuilder(Adapter)
+            sentencia = "UPDATE votantes SET bloqueo = 'TRUE' WHERE cedula = '" & cedula & "';"
+            Adapter = New OleDbDataAdapter(New OleDbCommand(sentencia, conexion))
+            Adapter.Fill(dsPersonas, "votantes")
+            Try
+                Adapter.Update(dsPersonas.Tables("votantes"))
+                'MessageBox.Show("MODIFICADO CON EXITO")
+            Catch ex As Exception
+                'MessageBox.Show("ERROR AL MODIFICAR")
+            End Try
+        End Using
+        txt_cedula.Text = ""
+        MessageBox.Show("VOTANTE BLOQUEADO")
+
+    End Sub
+
+    Private Sub win_bloqueo_Closing(sender As Object, e As ComponentModel.CancelEventArgs) Handles MyBase.Closing, MyBase.Closing
+        Dim adm As WinAdministrar
+        adm = Me.Owner
+        adm.Show()
         Me.Hide()
     End Sub
 End Class

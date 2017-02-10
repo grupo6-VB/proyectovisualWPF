@@ -74,6 +74,14 @@ InitializeComponent
 	<summary>
 LoginCandidato
 </summary>
+</member><member name="M:DataGridBaseDatos.Win_Bloqueo.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:DataGridBaseDatos.Win_Bloqueo">
+	<summary>
+Win_Bloqueo
+</summary>
 </member><member name="M:DataGridBaseDatos.Win_Verificacion.InitializeComponent">
 	<summary>
 InitializeComponent
