@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DataGridBaseDatos"
         mc:Ignorable="d"
-        Title="Datos del candidato" Height="410" Width="300" Closing="Window_Closing" Loaded="Window_Loaded">
+        Title="Datos del candidato" Height="410" Width="300" Closing="Window_Closing" Loaded="Window_Loaded" Icon="images/CHECK.png">
     <Grid>
         <Grid Height="363" Margin="10" Width="272">
             <Button x:Name="btn_actualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="46,321,0,0" VerticalAlignment="Top" Width="75"/>
@@ -45,12 +45,12 @@
             <Label x:Name="lbl_clave" Content="Clave" HorizontalAlignment="Left" Margin="36,141,0,0" VerticalAlignment="Top"/>
             <TextBox x:Name="txt_clave" Text="{Binding Pass}" HorizontalAlignment="Left" Height="25" Margin="119,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
             <Label x:Name="lbl_estado" Content="Estado" HorizontalAlignment="Left" Margin="36,176,0,0" VerticalAlignment="Top"/>
-            <ComboBox x:Name="box_estado" Text="{Binding Estado}" HorizontalAlignment="Left" Margin="119,176,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBox x:Name="box_estado" Text="{Binding Estado}" HorizontalAlignment="Left" Margin="119,176,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False">
                 <ListBoxItem Content="FALSE"/>
                 <ListBoxItem Content="TRUE"/>
             </ComboBox>
             <Label x:Name="lbl_votos" Content="Votos" HorizontalAlignment="Left" Margin="36,273,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="txt_votos" Text="{Binding Votos}" HorizontalAlignment="Left" Height="25" Margin="119,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="txt_votos" Text="{Binding Votos}" HorizontalAlignment="Left" Height="25" Margin="119,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
             <Button x:Name="btn_borrar" Content="Eliminar" HorizontalAlignment="Left" Margin="159,321,0,0" VerticalAlignment="Top" Width="75"/>
         </Grid>
     </Grid>

@@ -18,8 +18,7 @@ Public Class Win_Verificacion
                         Else
                             MessageBox.Show("BIENVENIDO")
                             Dim sufragio As New WinSufragio()
-                            'Dim w_el As WinElecciones
-                            'w_el = sufragio.Owner
+                            sufragio.Owner = Me.Owner
                             sufragio.DataContext = p
                             sufragio.Show()
                             Me.Hide()

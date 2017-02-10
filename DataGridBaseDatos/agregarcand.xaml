@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DataGridBaseDatos"
         mc:Ignorable="d"
-        Title="Datos del candidato" Height="443.679" Width="283.243" Closing="Window_Closing">
+        Title="Datos del candidato" Height="443.679" Width="283.243" Closing="Window_Closing" Icon="images/CHECK.png">
     <Grid Margin="0,0,2,0">
         <Grid Height="397" Margin="10" Width="253">
             <Button x:Name="btn_ok" Content="Guardar" HorizontalAlignment="Left" Margin="93,338,0,0" VerticalAlignment="Top" Width="75"/>
@@ -50,7 +50,7 @@
                 <ListBoxItem Content="TRUE"/>
             </ComboBox>
             <Label x:Name="lbl_votos" Content="Votos" HorizontalAlignment="Left" Margin="26,284,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="txt_votos" Text="{Binding Cedula}" HorizontalAlignment="Left" Height="26" Margin="109,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="txt_votos" Text="0" HorizontalAlignment="Left" Height="26" Margin="109,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         </Grid>
     </Grid>
 </Window>

@@ -3,20 +3,11 @@ Imports System.Data
 
 Class LoginCandidato
 
-    Public dbPath As String = "sample.mdb"
-    Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
-
-
-
-
-
     Private Sub btn_ingresar_Click(sender As Object, e As RoutedEventArgs) Handles btn_ingresar.Click
         Dim dsCandidatos As DataSet = New DataSet
         Using conexion As New OleDbConnection(DatosPublicos.cd_conexion)
             DatosPublicos.cedula = txt_user.Text
 
-
-            'Dim consulta As String = "Select * FROM tbl_master;"
             Dim consulta As String = "Select * FROM candidatos WHERE usuario = '" & txt_user.Text & "';"
             Dim adapter As New OleDbDataAdapter(New OleDbCommand(consulta, conexion))
             Dim candidatoCmdBuilder = New OleDbCommandBuilder(adapter)
@@ -46,7 +37,7 @@ Class LoginCandidato
                 Next
                 Dim consult As New tablaConsulta()
                 consult.DataContext = candidato
-                'consult.Owner = Me
+                consult.Owner = Me.Owner
                 consult.Show()
                 Me.Hide()
             Else
@@ -62,4 +53,10 @@ Class LoginCandidato
     End Sub
 
 
+    Private Sub win_login_Closing(sender As Object, e As ComponentModel.CancelEventArgs) Handles win_login.Closing
+        Dim padre As WinElecciones
+        padre = Me.Owner
+        padre.Show()
+        Me.Hide()
+    End Sub
 End Class

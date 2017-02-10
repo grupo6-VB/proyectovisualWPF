@@ -93,4 +93,10 @@ Public Class WinAdministrar
     End Sub
 
 
+    Private Sub win_administrar_Closing(sender As Object, e As ComponentModel.CancelEventArgs) Handles win_administrar.Closing
+        Dim padre As WinElecciones
+        padre = Me.Owner
+        padre.Show()
+        Me.Hide()
+    End Sub
 End Class

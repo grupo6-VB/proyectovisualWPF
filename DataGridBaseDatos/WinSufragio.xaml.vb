@@ -1,8 +1,6 @@
 ﻿Imports System.Data.OleDb
 Imports System.Data
 Public Class WinSufragio
-    Public dbPath As String = "sample.mdb"
-    Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
     Public dsDignidades As DataSet
     Public dsCandidatos As DataSet
     Public dsPartidos As DataSet
@@ -11,11 +9,11 @@ Public Class WinSufragio
     Private contador As Integer
     Private max As Integer
     Private votante As Persona
-    Private candidato As Candidato
     Private tipo As String
     Private Sub Window_Loaded(sender As Object, e As RoutedEventArgs)
         contador = 0
         max = 0
+
         If DataContext.GetType.ToString().Contains("Candidato") Then
             tipo = "candidatos"
         Else
@@ -52,17 +50,14 @@ Public Class WinSufragio
         Dim seleccion As New CheckBox
         seleccion = sender
         If seleccion.IsChecked Then
-            MessageBox.Show("MAYOR")
             contador = +1
             lbl_mensaje.Content = "Seleccionados : " & contador
         End If
     End Sub
 
     Public Sub Carga_Candidatos()
-        'Dim seleccion As New CheckBox
-        'AddHandler seleccion.Checked, AddressOf Seleccion_Candidato
+        
         For Each partido As Partido_Politico In partidos
-            'MessageBox.Show(partido.Siglas)
             partido.Carga_Candidatos(partido.Id)
         Next
 
@@ -133,7 +128,7 @@ Public Class WinSufragio
     End Sub
 
     Public Sub Cargar_Dignidades()
-        Using conexion As New OleDbConnection(strConexion)
+        Using conexion As New OleDbConnection(DatosPublicos.cd_conexion)
             Dim consulta As String = "Select * FROM dignidades;"
             Dim adapter As New OleDbDataAdapter(New OleDbCommand(consulta, conexion))
             Dim dignidadCmdBuilder = New OleDbCommandBuilder(adapter)
@@ -155,7 +150,7 @@ Public Class WinSufragio
 
     Public Sub Cargar_Partidos()
 
-       Using conexion As New OleDbConnection(strConexion)
+        Using conexion As New OleDbConnection(DatosPublicos.cd_conexion)
             Dim consulta As String = "Select * FROM partidopolitico;"
             Dim adapter As New OleDbDataAdapter(New OleDbCommand(consulta, conexion))
             Dim partidoCmdBuilder = New OleDbCommandBuilder(adapter)
@@ -228,7 +223,6 @@ Public Class WinSufragio
             Exit Sub
         End If
 
-        MessageBox.Show("CANDIDATOS SELECCIONADOS: " & contador)
     End Sub
 
     Public Sub Proceso_Guardado()
@@ -237,9 +231,9 @@ Public Class WinSufragio
                 If c.Seleccion.IsEnabled Then
                     If c.Seleccion.IsChecked Then
                         c.Votos += 1
-                        MessageBox.Show(c.Id & "     " & c.Votos)
+                        'MessageBox.Show(c.Id & "     " & c.Votos)
                         dsCandidatos = New DataSet
-                        Using conexion As New OleDbConnection(strConexion)
+                        Using conexion As New OleDbConnection(DatosPublicos.cd_conexion)
                             Dim sentencia As String
                             Dim Adapter As New OleDbDataAdapter
                             Dim actualizacion = New OleDbCommandBuilder(Adapter)
@@ -262,9 +256,11 @@ Public Class WinSufragio
     End Sub
 
     Private Sub Window_Closing(sender As Object, e As ComponentModel.CancelEventArgs)
+
         Dim padre As WinElecciones
         padre = Me.Owner
         padre.Show()
         Me.Hide()
+
     End Sub
 End Class

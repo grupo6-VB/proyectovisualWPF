@@ -1,21 +1,21 @@
-﻿<Window x:Class="loginAdmin"
+﻿<Window x:Name="win_loginAdmin" x:Class="loginAdmin"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DataGridBaseDatos"
         mc:Ignorable="d"
-        Title="loginAdmin" Height="300" Width="437.647">
+        Title="loginAdmin" Height="300" Width="437.647" Closing="Window_Closing" Icon="images/LOGIN.ico">
     <Window.Background>
         <ImageBrush ImageSource="images/cne-login.png"/>
     </Window.Background>
     <Grid>
         <Grid HorizontalAlignment="Center" Height="128" Margin="88,45,88,97" VerticalAlignment="Center" Width="254">
-            <TextBox x:Name="txtUser" HorizontalAlignment="Left" Height="23" Margin="110,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="txtUser" HorizontalAlignment="Left" Height="23" Margin="110,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Panel.ZIndex="1"/>
             <Label x:Name="lbl_user" Content="Usuario" HorizontalAlignment="Left" Margin="26,17,0,0" VerticalAlignment="Top"/>
             <Label x:Name="lbl_pass" Content="Contraseña" HorizontalAlignment="Left" Margin="26,52,0,0" VerticalAlignment="Top"/>
-            <Button x:Name="btn_admin" Content="Ingresar" HorizontalAlignment="Center" Margin="95,99,85,10" VerticalAlignment="Center" Width="75"/>
-            <TextBox x:Name="txt_pass" HorizontalAlignment="Left" Height="23" Margin="110,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Button x:Name="btn_admin" Content="Ingresar" HorizontalAlignment="Center" Margin="94,99,84,0" VerticalAlignment="Center" Width="76" Height="29" Panel.ZIndex="3"/>
+            <PasswordBox x:Name="pwd_pass" HorizontalAlignment="Left" Margin="109,60,0,0" VerticalAlignment="Top" Width="121" Panel.ZIndex="2"/>
         </Grid>
 
     </Grid>

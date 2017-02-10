@@ -8,7 +8,7 @@ Public Class tablaConsulta
     Private Sub Window_Loaded(sender As Object, e As RoutedEventArgs)
 
         candidato = Me.DataContext
-        MessageBox.Show(candidato.EstadoSufragio)
+        'MessageBox.Show(candidato.EstadoSufragio)
         Me.Title = "RESULTADOS PARCIALES --> " & candidato.Nombre & "  " & candidato.Apellido
 
         If candidato.EstadoSufragio Then
@@ -48,10 +48,16 @@ Public Class tablaConsulta
 
     Private Sub btn_sufragar_Click(sender As Object, e As RoutedEventArgs) Handles btn_sufragar.Click
         Dim sufragio As New WinSufragio()
-        'Dim w_el As WinElecciones
-        'w_el = sufragio.Owner
+        sufragio.Owner = Me.Owner
         sufragio.DataContext = candidato
         sufragio.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub win_consultas_Closing(sender As Object, e As ComponentModel.CancelEventArgs) Handles win_consultas.Closing
+        Dim padre As WinElecciones
+        padre = Me.Owner
+        padre.Show()
         Me.Hide()
     End Sub
 End Class
