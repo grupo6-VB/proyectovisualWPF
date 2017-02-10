@@ -11,8 +11,8 @@ Public Class WinAdministrar
     Private Sub Window_Loaded(sender As Object, e As RoutedEventArgs)
 
         Using conexion As New OleDbConnection(strConexion)
-            ced = Module1.cedula
-            passw = Module1.pass
+            ced = DatosPublicos.cedula
+            passw = DatosPublicos.pass
 
             '  MsgBox(passw)
 

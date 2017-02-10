@@ -22,7 +22,7 @@ Public Class Win_Verificacion
                             'w_el = sufragio.Owner
                             sufragio.DataContext = p
                             sufragio.Show()
-                            Me.Close()
+                            Me.Hide()
                         End If
                     End If
                 Else

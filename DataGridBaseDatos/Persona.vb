@@ -2,8 +2,8 @@
 Imports System.Data.OleDb
 Imports System.Data
 Public Class Persona
-    Public dbPath As String = "sample.mdb"
-    Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
+    'Public dbPath As String = "sample.mdb"
+    'Public strConexion As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & dbPath
     Private _cedula As String
     Public Property Cedula() As String
         Get

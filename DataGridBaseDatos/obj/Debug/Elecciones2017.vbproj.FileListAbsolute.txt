@@ -55,10 +55,8 @@ D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\DataGridBas
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.exe
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.pdb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\bin\Debug\DataGridBaseDatos.xml
-D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\userLogin.baml
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinPersona.baml
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\loginAdmin.g.vb
-D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\userLogin.g.vb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\tablaConsulta.g.vb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinPersona.g.vb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\Application.g.vb
@@ -110,3 +108,5 @@ D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinAdminist
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinSufragio.g.vb
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\agregarcand.baml
 D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\WinAdministrar.baml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\LoginCandidato.baml
+D:\PROGRAMAS\VISUAL BASIC\PROYECTO_FINAL\DataGridBaseDatos\obj\Debug\LoginCandidato.g.vb

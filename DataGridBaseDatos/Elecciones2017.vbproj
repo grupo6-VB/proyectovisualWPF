@@ -76,7 +76,7 @@
       <DependentUpon>loginAdmin.xaml</DependentUpon>
     </Compile>
     <Compile Include="Mesa.vb" />
-    <Compile Include="Module1.vb" />
+    <Compile Include="DatosPublicos.vb" />
     <Compile Include="Partido_Politico.vb" />
     <Compile Include="Persona.vb" />
     <Compile Include="tablaConsulta.xaml.vb">
@@ -105,7 +105,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="userLogin.xaml">
+    <Page Include="LoginCandidato.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -113,8 +113,8 @@
       <DependentUpon>Application.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="userLogin.xaml.vb">
-      <DependentUpon>userLogin.xaml</DependentUpon>
+    <Compile Include="LoginCandidato.xaml.vb">
+      <DependentUpon>LoginCandidato.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="tablaConsulta.xaml">
@@ -231,6 +231,9 @@
     <Resource Include="images\RESULT.jpg" />
     <Resource Include="images\Votando_ico.png" />
     <Resource Include="images\VOTO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\CNE.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

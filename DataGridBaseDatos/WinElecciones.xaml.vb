@@ -2,7 +2,7 @@
     Private Sub btn_Consultar_Click(sender As Object, e As RoutedEventArgs) Handles btn_Consultar.Click
 
 
-        Dim userlog As New userLogin()
+        Dim userlog As New LoginCandidato()
         userlog.Owner = Me
         userlog.Show()
 

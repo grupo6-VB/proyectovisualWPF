@@ -113,6 +113,7 @@ Public Class Partido_Politico
             candidato.Id = row.Item(0)
             candidato.User = row.Item(1)
             candidato.Pass = row.Item(2)
+            candidato.Cedula = row.Item(3)
             candidato.Nombre = row.Item(5)
             candidato.Apellido = row.Item(6)
             candidato.Dignidad = row.Item(8)

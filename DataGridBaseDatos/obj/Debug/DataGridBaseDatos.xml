@@ -58,6 +58,14 @@ Application Entry Point.
 	<summary>
 Application
 </summary>
+</member><member name="M:DataGridBaseDatos.LoginCandidato.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:DataGridBaseDatos.LoginCandidato">
+	<summary>
+LoginCandidato
+</summary>
 </member><member name="M:DataGridBaseDatos.Win_Verificacion.InitializeComponent">
 	<summary>
 InitializeComponent
@@ -65,14 +73,6 @@ InitializeComponent
 </member><member name="T:DataGridBaseDatos.Win_Verificacion">
 	<summary>
 Win_Verificacion
-</summary>
-</member><member name="M:DataGridBaseDatos.userLogin.InitializeComponent">
-	<summary>
-InitializeComponent
-</summary>
-</member><member name="T:DataGridBaseDatos.userLogin">
-	<summary>
-userLogin
 </summary>
 </member><member name="M:DataGridBaseDatos.tablaConsulta.InitializeComponent">
 	<summary>
